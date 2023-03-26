@@ -1,4 +1,4 @@
-package stepDefinition;
+package stepDefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -32,5 +32,29 @@ public class AmazonStepDefinition {
     @And("sayfayi kapatir")
     public void sayfayiKapatir() {
         Driver.closeDriver();
+    }
+
+    @Then("Kullanici Selenium aratir")
+    public void kullaniciSeleniumAratir() {
+        Driver.getDriver().findElement(By.id("twotabsearchtextbox")).sendKeys("Selenium", Keys.ENTER);
+    }
+
+    @And("sonuclarin Selenium icerdigini test eder")
+    public void sonuclarinSeleniumIcerdiginiTestEder() {
+        String arananKelime="Selenium";
+        String actualAramaSonucStr=amazonPage.aramaSonucElementi.getText();
+        Assert.assertTrue(actualAramaSonucStr.contains(arananKelime));
+    }
+
+    @Then("Kullanici iphone aratir")
+    public void kullaniciIphoneAratir() {
+        Driver.getDriver().findElement(By.id("twotabsearchtextbox")).sendKeys("iphone", Keys.ENTER);
+    }
+
+    @And("sonuclarin iphone icerdigini test eder")
+    public void sonuclarinIphoneIcerdiginiTestEder() {
+        String arananKelime="iphone";
+        String actualAramaSonucStr=amazonPage.aramaSonucElementi.getText();
+        Assert.assertTrue(actualAramaSonucStr.contains(arananKelime));
     }
 }
