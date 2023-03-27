@@ -23,13 +23,3 @@ Feature: US001 Background Kullanimi
     And sonuclarin iphone icerdigini test eder
     And sayfayi kapatir
 
-    Given url'ye gider
-    Then Giris yap'a tiklanir
-    Then Gecerli kullanici bilgileri girilir
-    Then Giris yap'a tiklanir
-    Then Hesabim sayfasina giris yapildigi test edilir
-    Then Acilan sayfada siparisler bolumune tiklanir
-    Then Acilan sayfada Browse Products(Urunlere Goz At) butonuna tiklanir
-    Then Magaza butonunun gorunur oldugu test edilir
-    Then Rastgele 5 urun secilir ve sepete eklenir
-    Then Urunlerin sepette gorundugu test edilir
