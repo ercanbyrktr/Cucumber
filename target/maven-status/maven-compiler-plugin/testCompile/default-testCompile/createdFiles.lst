@@ -1,2 +1,4 @@
 stepDefinitions\AmazonStepDefinition.class
+stepDefinitions\Facebook.class
 runners\Runner.class
+stepDefinitions\HepsiBuradaStepDefinition.class
