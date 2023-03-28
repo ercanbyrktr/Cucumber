@@ -1,4 +1,5 @@
+pages\FacebookPage.class
 stepDefinitions\AmazonStepDefinition.class
-stepDefinitions\Facebook.class
 runners\Runner.class
+stepDefinitions\FacebookStepDefinition.class
 stepDefinitions\HepsiBuradaStepDefinition.class
