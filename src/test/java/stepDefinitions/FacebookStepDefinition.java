@@ -41,5 +41,13 @@ public class FacebookStepDefinition {
     }
 
 
+    @And("{string} username girer")
+    public void usernameGirer(String gecersizUsername) {
+        facebook.email.sendKeys(gecersizUsername);
+    }
 
+    @And("{string} password girer")
+    public void passwordGirer(String gecersizPassword) {
+        facebook.sifre.sendKeys(gecersizPassword);
+    }
 }

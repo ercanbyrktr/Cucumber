@@ -4,7 +4,7 @@ Feature: US006 kullanici amazonda istedigi kelimeleri aratir
 
     Given Kullanici amazon sayfasina gider
     Then kullanici "<istenenKelime>" icin arama yapar
-    And sonuclarin "<istenenKelimeKontrol>" icerdigini test eder
+    Then sonuclarin "<istenenKelimeKontrol>" icerdigini test eder
     And sayfayi kapatir
     Examples:
       | istenenKelime | istenenKelimeKontrol |
@@ -12,4 +12,6 @@ Feature: US006 kullanici amazonda istedigi kelimeleri aratir
       | selenium      | selenium             |
       | sql           | sql                  |
 
+# TestNG deki dataProvider kullanimindaki gibi Cucumberda da Scenerio Outline kullaniriz
+# Bu sekilde birden fazla kelimeyi tek seferde aratabiliriz
 
