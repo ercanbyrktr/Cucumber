@@ -3,3 +3,5 @@ stepDefinitions\AmazonStepDefinition.class
 runners\Runner.class
 stepDefinitions\FacebookStepDefinition.class
 stepDefinitions\HepsiBuradaStepDefinition.class
+stepDefinitions\HerokuappstepDefinition.class
+pages\HerokuapPage.class
