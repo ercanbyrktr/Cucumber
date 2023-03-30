@@ -1,7 +1,11 @@
-pages\FacebookPage.class
 stepDefinitions\AmazonStepDefinition.class
-runners\Runner.class
-stepDefinitions\FacebookStepDefinition.class
+pages\GuruPage.class
 stepDefinitions\HepsiBuradaStepDefinition.class
 stepDefinitions\HerokuappstepDefinition.class
 pages\HerokuapPage.class
+pages\FacebookPage.class
+runners\Runner.class
+stepDefinitions\FacebookStepDefinition.class
+stepDefinitions\gurustepDefinition.class
+stepDefinitions\Hooks.class
+stepDefinitions\FacebookStepDefinition$GuruStepDefinition.class

@@ -50,4 +50,10 @@ public class FacebookStepDefinition {
     public void passwordGirer(String gecersizPassword) {
         facebook.sifre.sendKeys(gecersizPassword);
     }
+
+    public static class GuruStepDefinition {
+        @And("{string}, sutunundaki tum degerleri yazdirir")
+        public void sutunundakiTumDegerleriYazdirir(String arg0) {
+        }
+    }
 }
