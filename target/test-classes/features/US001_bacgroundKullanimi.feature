@@ -8,7 +8,7 @@ Feature: US001 Background Kullanimi
     Then Kullanici nutella aratir
     And sonuclarin nutella icerdigini test eder
 
-
+  @gp2
   Scenario: TC02 Kullanici Selenium nutella aratir
 
 

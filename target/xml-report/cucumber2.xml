@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="20.781" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="US013 Class Work" name="Kullanici ve Url Testi" time="20.156">
+<testsuite name="Cucumber" time="23.891" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US013 Class Work" name="Kullanici ve Url Testi" time="23.285">
 <system-out><![CDATA[
 Given kullanici "webUrl" sayfasina gider....................................passed
 Then kullanici Login Portala kadar asagi iner...............................passed
